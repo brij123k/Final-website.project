@@ -1,0 +1,38 @@
+.item{
+    width:150px;
+    height :150px;
+    background-color: rgb(44, 147, 28);
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    margin-left: 12px;
+    margin-top: -40px;
+    
+}
+.item img{
+    height: 130px;
+    border-radius: 12px;
+}
+
+.item-head_desc{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.head_desc-name{
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    flex: 1;
+    color: white;
+
+}
+.head_desc-info{
+    font-size: .8rem;
+    color: #a0a0a0a0;
+}
+.foot_desc-price{
+    font-weight: 700;
+}

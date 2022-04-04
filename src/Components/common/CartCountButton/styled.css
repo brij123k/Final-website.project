@@ -1,0 +1,46 @@
+.btnCartCount{
+    color: #fff;
+    border-radius: 15px;
+    transform: rotate(45deg) ;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1.5rem;
+    cursor: pointer;
+    right:100px;
+
+}
+.btnCartCount i {
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+}
+.btnCartCount .count{
+    position: absolute;
+    background-color: rgb(251, 10, 10);
+    top: -16px;
+    /* left:-9px; */
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    
+}
+
+ @media(max-width:480px){
+    .btnCartCount{
+        top: 1.5rem;
+        right:30px;
+    }
+ }
+ @media(max-width:480){
+    .btnCartCount .count{ 
+        width: 13px;
+        height: 13px;
+    }
+ }

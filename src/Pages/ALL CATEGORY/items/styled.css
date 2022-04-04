@@ -1,0 +1,52 @@
+.categorey{
+    width:150px;
+    height :190px;
+    background-color: rgb(44, 147, 28);
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: -40px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.categorey img{
+    height: 130px;
+    width: 150px;
+    border-radius: 7px;
+    box-shadow: 0 0 15px #fff;
+}
+
+.categorey-head_desc{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.head_desc-nameitem{
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    flex: 1;
+    color: #fff;
+    font-weight: bol;
+
+}
+.head_desc-info{
+    font-size: .8rem;
+    color: #a0a0a0a0;
+}
+.foot_desc-prices{
+    font-weight: 700;
+    font-size: 16px;
+    width: 20%;
+}
+
+.categorey-foot_desc{
+    width :100%;
+    position: absolute;
+    bottom :2px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
